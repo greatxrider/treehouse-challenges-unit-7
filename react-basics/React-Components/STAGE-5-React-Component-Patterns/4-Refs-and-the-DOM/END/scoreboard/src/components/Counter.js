@@ -1,5 +1,6 @@
 import React from "react";
 
+
 const Counter = ({ score, id, changeScore }) => {
 
   return (
@@ -9,7 +10,8 @@ const Counter = ({ score, id, changeScore }) => {
       <button className="counter-action increment" onClick={() => changeScore(id, 1)}> + </button>
     </div>
   );
-
 }
+
+
 
 export default Counter;
